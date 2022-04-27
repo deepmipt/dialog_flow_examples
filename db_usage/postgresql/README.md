@@ -1,6 +1,5 @@
 
 # Quick Start
-## Requirements
 ```bash
 pip install -r requirements.txt
 ```
@@ -18,10 +17,13 @@ type your answer:
 ```
 
 Contexts are storaged into postgresdb. You can use `psql` with password `pass` to connect to the db and check context:
-```psql
+```sql
 psql  --dbname=test -U postgres --host=localhost  --port=5432
-Password:
+Password: -- write down "pass"
 test=# select * from contexts;
+```
+results
+```json
  id |                                                                                       context                                                                                        
 ----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  97 | {"id": 97, "labels": {"0": ["greeting_flow", "node1"]}, "requests": {"0": "Hi"}, "responses": {"0": "Hello, how are you?"}, "misc": {}, "validation": false, "framework_states": {}}

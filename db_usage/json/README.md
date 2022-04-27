@@ -1,8 +1,10 @@
 
 # Quick Start
-## Requirements
 ```bash
 pip install df-db-connector
+```
+```bash
+docker-compose up -d
 ```
 
 Run the the code.
@@ -10,7 +12,7 @@ Run the the code.
 python main.py
 ```
 
-Results:
+Interact with the script:
 ```
 type your answer: Hi
 2022-04-27 17:41:20,560-           root: 60:        turn_handler():INFO - in_request=Hi -> Hello, how are you?
