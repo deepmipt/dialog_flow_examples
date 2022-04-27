@@ -8,7 +8,7 @@ from df_engine.core import Actor, Context
 import df_engine.responses as rsp
 import df_engine.conditions as cnd
 
-from examples import example_1_basics
+from . import example_1_basics
 
 logger = logging.getLogger(__name__)
 

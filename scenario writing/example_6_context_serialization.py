@@ -3,7 +3,7 @@ import logging
 from df_engine.core.keywords import TRANSITIONS, RESPONSE
 from df_engine.core import Context, Actor
 
-from examples import example_1_basics
+from . import example_1_basics
 import df_engine.conditions as cnd
 
 logger = logging.getLogger(__name__)

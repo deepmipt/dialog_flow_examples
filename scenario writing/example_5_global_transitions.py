@@ -6,7 +6,7 @@ from df_engine.core import Context, Actor
 import df_engine.conditions as cnd
 import df_engine.labels as lbl
 
-from examples import example_1_basics
+from . import example_1_basics
 
 logger = logging.getLogger(__name__)
 
